@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact 
-tagline: You want to talk to little old me?
+title: contact 
+tagline: so you want to talk to me?
 group: navigation
 header: Contact Me
 oldurl: /contact/
@@ -12,7 +12,7 @@ Want to contact me? Well I don’t blame you, I’d quite like to get in touch w
 
 Poor psychiatry related jokes aside – my contact address is below.
 
-# [contact@patrick-mckinley.com] [email]
+# [liao.jes@gmail.com] [email]
 
 ---
 
@@ -24,4 +24,4 @@ Sure, I’ve got pretty good spam filtering, and it’s not like that’s my mai
 
 
 
-[email]: mailto:contact@patrick-mckinley.com "email me!"
+[email]: mailto:liao.jes@gmail.com "email me!"

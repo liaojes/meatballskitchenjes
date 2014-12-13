@@ -5,7 +5,9 @@
 <div class="row-fluid post-full">
   <div class="span12">
     <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
+      <span>{{ page.date | date_to_long_string }}</span><br>
+      <span>By: {% if page.author %} {{ page.author }} {% endif %}</span><br>
+      <span>Category: {{ page.category }}, Tags: {% for t in page.tags %} <a href="tags.html#{{tag}}-ref"><i class="hash">#</i>{{tag}}</a> {% endfor %}</span>
     </div>
     <div class="content">
       {{ content }}

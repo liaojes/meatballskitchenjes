@@ -1,28 +1,28 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:title.html 
+permalink: /:categories/:year/:month/:day/:title.html 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 # auto: true
-pygments: true
+#pygments: true
 lsi: true
-paginate: 10
+paginate: 2 
 paginate_path: posts/page:num
 future: false
-timezone: Europe/London
+timezone: America/Los_Angeles
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Patrick McKinley
-tagline: London Based Magento PHP Developer
+title : meatball's kitchen
+tagline: spreading the roundness
 author :
-  name : Patrick McKinley
-  email : contact@patrick-mckinley.com
-  github : lilmuckers
-  twitter : lilmuckers
-#  facebook : lilmuckers
-  linkedin : patrickmckinley
+  name : Jessica Liao
+  email : liao.jes@gmail.com
+  github : liaojes
+  twitter : jesliao
+  facebook : jesliao
+  linkedin : jesliao
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -33,7 +33,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://patrick-mckinley.com
+production_url : http://cookingwithmeatball.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -90,7 +90,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : pmckinley-magento
+      short_name : jesliao
     livefyre :
       site_id : 123
     intensedebate :
@@ -108,7 +108,7 @@ JB :
   analytics :
     provider : google
     google : 
-        tracking_id : 'UA-18247732-2'
+        tracking_id : 'UA-57605765-1'
     getclicky :
       site_id : 
     mixpanel :

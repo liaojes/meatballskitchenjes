@@ -3,7 +3,7 @@
   </div>
   
   <div class="span6">
-    <h4><i class="icon-certificate"> </i> Related Posts <small>They might not be good...</small></h4>
+    <h4><i class="icon-certificate"> </i> Related Posts</h4>
     {% if site.related_posts == empty %}
       <p>There are no related posts. How sad...</p>
     {% else %}

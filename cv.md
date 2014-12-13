@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CV
-header: CV
-tagline: Something in latin beginning with C and V.
+title: resources
+header: resources
+tagline: resources tagline
 group: navigation
 oldurl: /cv/
 ---
